@@ -1,0 +1,30 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+
+# Python & Caching
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local Vector Databases & Data
+chroma_db/
+.chroma/
+*.sqlite3
+*.db
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
